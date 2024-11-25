@@ -18,7 +18,7 @@ def root():
     response = {
         'greeting': 'Servus, griaß di!',    # This is a typical Bavarian greeting ;)
         'timestamp': datetime.now(),
-        'location': 'Tokyo'
+        'location': 'Le Wagon'
     }
 
     return response
